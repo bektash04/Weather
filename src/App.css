@@ -1,0 +1,38 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url('https://million-wallpapers.ru/wallpapers/5/10/10267909283444948628/oblaka-kotorye-ya-vizhu-tolko-vo-sne.jpg');
+     background-size: cover;
+     height: 100%;
+}
+
+
+/* .app{
+    position: relative;
+    transition: 1s;
+} */
+
+.weather-const{
+    width: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 30px;
+    border-top: 1px solid hsla(0,0%,100%,.2);
+    border-left: 1px solid hsla(0,0%,100%,.2);
+    z-index: 1;
+    box-shadow: rgba(80, 80, 80, 0.25) 0px 54px 55px, rgba(75, 75, 75, 0.12) 0px -12px 30px, rgba(77, 77, 77, 0.12) 0px 4px 6px, rgba(81, 81, 81, 0.17) 0px 12px 13px, rgba(78, 78, 78, 0.09) 0px -3px 5px;
+    background: hsla(0, 0%, 100%, 0.05);
+    backdrop-filter: blur(50px);
+}

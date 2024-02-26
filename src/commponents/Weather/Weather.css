@@ -1,0 +1,75 @@
+
+.h1-w1{
+    margin-top: 40px;
+    font-size: 25px;
+    color: aliceblue;
+}
+
+.pop-w1{
+    position: absolute;
+    margin-top: -50px;
+    color: aliceblue;
+}
+
+
+.h2-w4{
+    position: absolute;
+    margin-top: -46px;
+    margin-left: 65px;
+    color: aliceblue;
+}
+
+.sys-set-rise{
+    display: flex;
+    gap: 55px;
+    color: #fff;
+}
+
+h3{
+    color: #fff;
+}
+
+.po-w6{
+    color: rgb(235, 242, 242);
+    
+}
+.po-w7{
+    color: rgb(235, 242, 242);
+}
+
+.po-w7-e{
+    color: rgb(235, 242, 242);
+    position: absolute;
+    margin-left: 127px;
+}
+
+
+
+.sys-Wind-Like{
+    display: flex;
+    gap: 55px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.po-w6-e{
+    color: rgb(235, 242, 242);
+}
+
+.hr-w10{
+   border:  solid  0.1px  rgb(212, 241, 248);
+}
+
+.main-hum-all{
+    display: flex;
+    gap: 55px;
+    margin-top: 6px;
+}
+.pip-w14{
+    color: rgb(235, 242, 242);
+    position: absolute;
+    margin-left: 126px;
+}
+.pip-w15{
+    color: rgb(235, 242, 242);
+}
