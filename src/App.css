@@ -31,6 +31,9 @@ body{
     padding: 30px;
     border-top: 1px solid hsla(0,0%,100%,.2);
     border-left: 1px solid hsla(0,0%,100%,.2);
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    border-right: 1px solid hsla(0,0%,100%,.2);
+
     z-index: 1;
     box-shadow: rgba(80, 80, 80, 0.25) 0px 54px 55px, rgba(75, 75, 75, 0.12) 0px -12px 30px, rgba(77, 77, 77, 0.12) 0px 4px 6px, rgba(81, 81, 81, 0.17) 0px 12px 13px, rgba(78, 78, 78, 0.09) 0px -3px 5px;
     background: hsla(0, 0%, 100%, 0.05);

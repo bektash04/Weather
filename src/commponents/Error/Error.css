@@ -13,3 +13,10 @@
     color: #ffff;
     text-align: center;
 }
+
+.error-img-w1{
+    width: 250px;
+    height: 250px;
+    margin-left: -8px;
+    margin-top: -5px;
+}

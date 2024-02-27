@@ -10,7 +10,7 @@ const Error = ({weather}) => {
   return (
     <div className='error-weather'> 
     {
-     weather.cod === '404' ? <div className='div-error'> <img src={imges} className="error-img" alt="" />This city doesn't exist</div> : <div className='enter-error'><img src={imged} className="error-img" alt=""/>Enter a city in the field above</div>
+     weather.cod === '404' ? <div className='div-error'> <img src={imges} className="error-img" alt="" />This city doesn't exist</div> : <div className='enter-error'><img src={imged} className="error-img-w1" alt=""/>Enter a city in the field above</div>
     } 
   </div>
   )
