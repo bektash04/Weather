@@ -11,8 +11,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     background: url('../src/weather4.jpeg');
-    /* background-repeat: no-repeat; */
-    /* background-size: cover;   */
+    background-repeat: no-repeat;
+    background-size: cover;
      width: 100%;
      height: 100%;
 }
@@ -20,6 +20,7 @@ body{
 .weather-const{
     width: 300px;
     position: fixed;
+    margin: auto;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -34,4 +35,11 @@ body{
     box-shadow: rgba(80, 80, 80, 0.25) 0px 54px 55px, rgba(75, 75, 75, 0.12) 0px -12px 30px, rgba(77, 77, 77, 0.12) 0px 4px 6px, rgba(81, 81, 81, 0.17) 0px 12px 13px, rgba(78, 78, 78, 0.09) 0px -3px 5px;
     background: hsla(0, 0%, 100%, 0.05);
     backdrop-filter: blur(50px);
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+      /* background-size: cover; */
+      background-size: 100% auto;
+  }
 }
