@@ -10,16 +10,12 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background: url('https://million-wallpapers.ru/wallpapers/5/10/10267909283444948628/oblaka-kotorye-ya-vizhu-tolko-vo-sne.jpg');
-     background-size: cover;
+    background: url('../src/weather4.jpeg');
+    /* background-repeat: no-repeat; */
+    /* background-size: cover;   */
+     width: 100%;
      height: 100%;
 }
-
-
-/* .app{
-    position: relative;
-    transition: 1s;
-} */
 
 .weather-const{
     width: 300px;

@@ -1,7 +1,5 @@
-import Error from '../Error';
+
 import './Form.css'
-
-
 const Form = ({setWeather, city, setCity, }) => {
  
   const api_key = '9a076a90df603057583eee4e8ca6826b'

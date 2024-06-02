@@ -35,7 +35,7 @@ const Weather = ({weather}) => {
          <h1 className='h1-w1'>{weather.name}, {weather.sys.country}</h1>
          
          <p className='pop-w1'>{timeFormater(weather.dt)} {MonthHaddler(new Date(weather.dt * 1000))}</p>
-         <img className='img-w3' src={`http://openweathermap.org/img/w/${weather.weather[0].icon}.png`} />
+         <img className='img-w3' src={'http://openweathermap.org/img/w/' + weather.weather[0].icon + '.png'} />
          <h2 className='h2-w4'>{kelvinToCelsius(weather.main.temp).toFixed(0)}°C</h2>
          {/* <p>{weather.weather[0].description}</p> */}
         <div className='sys-set-rise'>
